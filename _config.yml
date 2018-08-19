@@ -103,7 +103,7 @@ author:
   name             : "Rexon Carvalho"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am a data analyst interested in US Power Markets and Energy and Environmental Data Analysis"
-  location         : "Somewhere"
+  location         : "Washington DC"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -126,7 +126,7 @@ author:
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
   twitter          :
-  tableau          : rexon1162#!/
+  tableau          : "https://public.tableau.com/profile/rexon1162#!/"
   vine             :
   weibo            :
   xing             :

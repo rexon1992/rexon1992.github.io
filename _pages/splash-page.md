@@ -12,7 +12,7 @@ header:
   caption: "Photo credit: [**IEA-RETD**](http://iea-retd.org/archives/publications/res-e-markets)"
 excerpt: "Energy Modeler and Data Analyst"
 intro:
-  - excerpt: <p><h2>Core Competencies</h2><br><strong>US Power Markets, Energy Modeling, Data Analysis, Multi-criteria Decision Analysis, Policy Analysis, Integrated Assessment Models, Greenhouse Gas Emissions Accounting, Environmental Life Cycle Assessment, Project Management</strong></p><p><h2>Programming and Software Proficiencies</h2><br><strong>R programming, Python, Matlab, Advance Excel, Tableau, C, C++, HTML</strong></p>
+  - excerpt: <p><h2>Core Competencies</h2><br><strong>Electricity Markets | Energy Modeling | Data Analysis | Multi-criteria Decision Analysis | Policy Analysis | Integrated Assessment Models | Greenhouse Gas Emissions Accounting | Environmental Life Cycle Assessment | Project Management</strong></p><p><h2>Programming and Software Proficiencies</h2><br><strong>R programming | Python | Matlab | Advance Excel | Tableau | C | C++ | HTML</strong></p>
 feature_row:
   - image_path: /assets/images/ngct.jpg
     alt: "placeholder image 2"

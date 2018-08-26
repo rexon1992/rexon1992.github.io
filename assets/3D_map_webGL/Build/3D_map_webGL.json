@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "WRI2",
+"dataUrl": "3D_map_webGL.data.unityweb",
+"asmCodeUrl": "3D_map_webGL.asm.code.unityweb",
+"asmMemoryUrl": "3D_map_webGL.asm.memory.unityweb",
+"asmFrameworkUrl": "3D_map_webGL.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

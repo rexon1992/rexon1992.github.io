@@ -1,9 +1,10 @@
 ---
 permalink: /projects/
 title: "Projects"
-layout: splash
+layout: collection
+classes: wide
 date: 2018-08-20T03:02:20+00:00
-author_profile: False
+author_profile: true
 header:
 intro:
 feature_row:

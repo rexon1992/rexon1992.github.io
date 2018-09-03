@@ -11,8 +11,13 @@ header:
   cta_url: /resume/
   caption: "Photo credit: [**IEA-RETD**](http://iea-retd.org/archives/publications/res-e-markets)"
 excerpt: "Energy Modeler and Data Analyst"
+
 intro:
-  - excerpt: <p><h2>Core Competencies</h2><br><strong>Electricity Markets | Energy Modeling | Data Analysis | Multi-criteria Decision Analysis | Policy Analysis | Integrated Assessment Models | Greenhouse Gas Emissions Accounting | Environmental Life Cycle Assessment | Project Management</strong></p><p><h2>Programming and Software Proficiencies</h2><br><strong>R programming | Python | Matlab | Advance Excel | Tableau | C | C++ | HTML</strong></p>
+  - excerpt: <p><h2 align="center">CORE COMPETENCIES</h2><br><p align="center"><strong>Electricity Markets</strong> | <strong>Energy Modeling</strong> | <strong>Statistical Modeling</strong> |<strong> Energy and Climate Policy Analysis</strong> |<strong> Financial Modeling</strong> | <strong>Energy Economics</strong> | <strong>Integrated Assessment Models</strong> | <strong>Sustainable Development</strong> | <strong>Project Management</strong></p><p><h2 align="center">PROGRAMMING AND SOFTWARE SKILLS</h2><br><p align="center"><strong>R programming</strong> | <strong>Python</strong> | <strong>Matlab</strong> | <strong>Vensim DSS</strong> | <strong>Advance Excel</strong> | <strong>Tableau</strong> | <strong>C</strong> | <strong>C++</strong> | <strong>HTML</strong></p>
+
+thesis:
+  - title: "Master's Thesis:"
+
 feature_row:
   - image_path: /assets/images/ngct.jpg
     alt: "placeholder image 2"
@@ -22,6 +27,8 @@ feature_row:
     btn_label: "Explore the Project"
     btn_class: "btn--primary"
 
+others:
+  - title: "Recent Projects:"
 feature_row2:
   - image_path: /assets/images/solarpv.jpg
     image_caption:
@@ -46,8 +53,12 @@ feature_row2:
     btn_class: "btn--primary"
 ---
 
-{% include feature_row id="intro" type="center" %}
+{% include feature_row id="intro" type="justify" %}
 
-{% include feature_row type="center" %}
+{% include feature_row id="thesis" type="justify" %}
+
+{% include feature_row id="feature_row" type="center" %}
+
+{% include feature_row id="others" type="justify" %}
 
 {% include feature_row id="feature_row2" %}

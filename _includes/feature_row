@@ -3,7 +3,11 @@
 {% else %}
   {% assign feature_row = page.feature_row %}
 {% endif %}
-
+<style>
+.btn:hover {
+  background-color: #104575;
+}
+</style>
 <div class="feature__wrapper">
 
   {% for f in feature_row %}

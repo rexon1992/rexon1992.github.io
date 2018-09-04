@@ -5,13 +5,14 @@
     padding: 15px;
     width: 100%;
     border: none;
+    border-radius: 5px;
     text-align: left;
     outline: none;
     font-size: 18px;
 }
 
 .active, .collapsible:hover {
-    background-color: #555;
+    background-color: #104575;
 }
 
 .collapsible:after {
@@ -19,7 +20,9 @@
   color: white;
   font-weight: bold;
   float: right;
+  float:
   margin-left: 5px;
+  padding-top: 0px;
 }
 
 .active:after {
@@ -51,5 +54,12 @@
 
 /* Darker background on mouse-over */
 .btn:hover {
-  background-color: #555;
+  background-color: #104575;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
 }

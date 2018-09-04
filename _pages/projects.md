@@ -12,7 +12,7 @@ feature_row:
     alt: "placeholder image 2"
     title: "Financial modeling of combustion turbine power plants operating in US power markets"
     excerpt:
-    url: "/projects_ng/"
+    url: "/portfolio/project_ngct/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/solarpv.jpg
@@ -27,7 +27,7 @@ feature_row:
     alt: "placeholder image 2"
     title: "Modeling and Forcasting Energy Demand using Regional Energy Consumption Survey Data "
     excerpt:
-    url: "#test-link"
+    url: "portfolio/project_recs"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row2:

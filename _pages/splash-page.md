@@ -37,7 +37,7 @@ feature_row2:
     alt: "placeholder image 2"
     title: "Modeling and Forcasting Energy Demand using Regional Energy Consumption Survey Data "
     excerpt:
-    url: "#test-link"
+    url: "/portfolio/project_recs/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/pathways.png

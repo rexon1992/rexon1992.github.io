@@ -20,10 +20,10 @@ var store = [{
         "url": "http://localhost:4000/portfolio/project_ngct/",
         "teaser":"http://localhost:4000/assets/images/ngct.jpg"},{
         "title": "Statistical Modeling of US Energy Demand Using Regional Energy Consumption Survey Data",
-        "excerpt":"Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn’t a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening &amp; War section...","categories": [],
+        "excerpt":"Introduction The rapidly growing world energy use has already raised concerns over supply difficulties, exhaustion of energy resources and heavy environmental impacts (ozone layer depletion, global warming, climate change, etc.). The global contribution from buildings towards energy consumption, both residential and commercial, has steadily increased reaching figures between 20% and...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/portfolio/project_recs/",
-        "teaser":"http://localhost:4000/assets/images/ngct.jpg"},{
+        "teaser":null},{
         "title": "Balancing deployment and innovation of low-carbon technologies",
         "excerpt":"Low carbon technologies are expensive and without subsidies from the government, most of these technologies are not economically feasible. As these technologies are expensive, they do not have a very high demand for them at that high price. Because there is not much demand, it is difficult to deploy these...","categories": ["Energy Policy"],
         "tags": ["Energy Policy"],

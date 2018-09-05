@@ -10,9 +10,36 @@ date: 2018-08-20T03:02:20+00:00
 <style>
 .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+    border-style: solid;
+    border-color: #D6D6D6;
+    background-color: #ffffff;
+    border-width: 1.4px;
+    padding: 10px;
+    padding-bottom: 20px;
 }
+
+input {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #D6D6D6;
+  border-width: 1.4px;
+}
+input:hover{
+  border-color: #0C72C6;
+}
+form{
+  background-color: #ffffff;
+}
+textarea {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #D6D6D6;
+  border-width: 1.4px;
+}
+textarea:hover{
+  border-color: #0C72C6;
+}
+
 </style>
 </head>
 

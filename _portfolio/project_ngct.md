@@ -2,12 +2,11 @@
 title: "Financial Modeling of a Natural Gas Combustion Turbine Power Plant"
 classes: wide
 author_profile: true
-excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
 header:
   teaser: assets/images/ngct.jpg
 sidebar:
   - title: "Additional Information"
-    text: <a href="https://grit0-my.sharepoint.com/:w:/g/personal/rjc9553_g_rit_edu/EYthwN0fIKRPjmxynWEOAAgBEozAU_rMwmUocWZy-p35oQ?e=OCqR8U">Download Full Report</a> <br> <a href="https://github.com/rexon1992/US_Power_Markets">View Model On Github</a>
+    text: <a href="#test-url">Download Full Report</a> <br> <a href="https://github.com/rexon1992/US_Power_Markets">View Model On Github</a>
 ---
 
 <h2>Abstract</h2>

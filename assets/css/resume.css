@@ -21,6 +21,7 @@
 .collapsible:after {
   content: '\002B';
   font-weight: bold;
+  float: right;
   font-size: 20px;
   margin-left: 5px;
   padding-top: 0px;

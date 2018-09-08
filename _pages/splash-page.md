@@ -10,7 +10,7 @@ header:
   cta_label: "Resume"
   cta_url: /resume/
   caption: "Photo credit: [**IEA-RETD**](http://iea-retd.org/archives/publications/res-e-markets)"
-excerpt: "Energy Modeler and Data Analyst"
+excerpt: "Researcher, Analyst and Modeler"
 
 intro:
   - excerpt: <div><h2 align="center">CORE COMPETENCIES</h2><br><p align="center"><strong>Electricity Markets</strong> | <strong>Energy Modeling</strong> | <strong>Statistical Modeling</strong> |<strong> Energy and Climate Policy Analysis</strong> |<strong> Financial Modeling</strong> | <strong>Energy Economics</strong> | <strong>Integrated Assessment Models</strong> | <strong>Sustainable Development</strong> | <strong>Project Management</strong></p></div><div><h2 align="center">PROGRAMMING AND SOFTWARE SKILLS</h2><br><p align="center"><strong>R programming</strong> | <strong>Python</strong> | <strong>Matlab</strong> | <strong>Vensim DSS</strong> | <strong>Advance Excel</strong> | <strong>Tableau</strong> | <strong>C</strong> | <strong>C++</strong> | <strong>HTML</strong></p></div>

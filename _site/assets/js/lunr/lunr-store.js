@@ -43,4 +43,4 @@ var store = [{
         "excerpt":"On August 3, 2015, the Environmental Protection Agency (EPA) announced the Clean Power Plan (CPP). As per the CPP, the EPA sets a certain target for emissions reduction for each state and the states have a choice of which path to follow to achieve the target. Depending on current emissions...","categories": ["Energy Policy"],
         "tags": ["Energy Policy"],
         "url": "http://localhost:4000/energy%20policy/clean-power-plan/",
-        "teaser":null},]
+        "teaser":null}]

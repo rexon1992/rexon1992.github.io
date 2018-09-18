@@ -1,0 +1,342 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.12.1 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Optimizing the Power Output of a Proton Exchange Membrane Fuel Cell System - Rexon Carvalho</title>
+<meta name="description" content="Project Summary">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Rexon Carvalho">
+<meta property="og:title" content="Optimizing the Power Output of a Proton Exchange Membrane Fuel Cell System">
+<meta property="og:url" content="http://localhost:4000/portfolio/pem/">
+
+
+  <meta property="og:description" content="Project Summary">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2018-09-16T16:55:32-04:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/portfolio/pem/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Rexon Carvalho",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Rexon Carvalho Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/">Rexon Carvalho</a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/resume/" >Resume</a>
+            </li><li class="masthead__menu-item">
+              <a href="/projects/" >Projects</a>
+            </li><li class="masthead__menu-item">
+              <a href="/posts/" >Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/contact/" >Contact</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      <h3>Additional Information</h3>
+      <p><a href="">Download Full Report</a> <br /> <a href="">View Model On Github</a></p>
+
+    
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Optimizing the Power Output of a Proton Exchange Membrane Fuel Cell System">
+    <meta itemprop="description" content="Project Summary">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Optimizing the Power Output of a Proton Exchange Membrane Fuel Cell System
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h2 id="project-summary">Project Summary</h2>
+
+<p><img src="/assets/images/pem_1.png" style="width: 70%" align="center" /></p>
+<p>The output of the fuel cell depends on the current density (i), active surface area (A), and the voltage (V). Voltage is a function of pressure of the cell (Pcell), current density (i) and active area (A). More the pressure, more is the voltage and hence, more is the power output. However, for the system to run at a higher pressure, the compression ratio has to be high, as a result of which the the compressor draws more power from the fuel cell system, which decreases the net power output of the fuel cell.</p>
+
+<h2 id="summary">Summary</h2>
+<p>The objective of this optimization is to find out the optimum pressure the system must be run at, such that there is maximum power output with minimum power loss
+
+<math>Net Power=Power Output-Power Loss</math>
+
+Maximize: Net Power=Power Output-Power Loss</p>
+
+<h2 id="results">Results</h2>
+
+<p>Base Case: compressor with 60% efficiency <br />
+Case 1: compressor with 30% efficiency <br />
+Case 2: compressor with 90% efficiency<br /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Variable</th>
+      <th>60% Efficiency (Base Case)</th>
+      <th>30% efficiency</th>
+      <th>90% Efficiency</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Current Density (A/cm2)</td>
+      <td>0.38</td>
+      <td>0.379</td>
+      <td>0.39</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Pressure (atm)</td>
+      <td>1.51</td>
+      <td>1.00</td>
+      <td>2.85</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Temperature (K)</td>
+      <td>362.63</td>
+      <td>357.90</td>
+      <td>370.83</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Power (W)</td>
+      <td>376.32</td>
+      <td>372.11</td>
+      <td>391.99</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Power output decreases with decrease in in efficiency of the compressor.
+At 30% efficiency the compressor draws more power than it would add. Hence, the optimum solution is to run the system with no compression.
+</p>
+<p><img src="/assets/images/pem_2.png" style="width: 70%; float: left; padding-right: 20px" />
+
+With increase in efficiency the polarization curve shifts upward and hence more voltage is obtained for the same current density which increases the power output.</p>
+
+<p><img src="/assets/images/pem_3.png" style="width: 70%; float: left; padding-right: 20px" />
+
+The power curve shifts upward with increase in efficiency because of higher voltage.</p>
+
+<p><img src="/assets/images/pem_4.png" style="width: 70%; float: left; padding-right: 20px" />
+
+The above plot of efficiency vs optimum pressure shows that, only when the efficiency of the compressor is above around 48% it makes sense to have a compressor. This is because below 48% efficiency the compressor draws more power than it adds to the power output of the fuel cell.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Optimizing+the+Power+Output+of+a+Proton+Exchange+Membrane+Fuel+Cell+System%20http%3A%2F%2Flocalhost%3A4000%2Fportfolio%2Fpem%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fportfolio%2Fpem%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://plus.google.com/share?url=http%3A%2F%2Flocalhost%3A4000%2Fportfolio%2Fpem%2F" class="btn btn--google-plus" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Google Plus"><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fportfolio%2Fpem%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/portfolio/pathways_package/" class="pagination--pager" title="Building a R package pathways to facilitate data processing for Climate Watch Pathways
+">Previous</a>
+    
+    
+      <a href="/portfolio/project_3d/" class="pagination--pager" title="3D World Map of Total Emissions and Per Capita Emissions by Country
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+    
+    
+      <li><a href="https://github.com/rexon1992"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2018 Rexon Carvalho. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>

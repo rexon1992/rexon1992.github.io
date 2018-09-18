@@ -1,19 +1,24 @@
 var store = [{
-        "title": "Fizz Bang Identity",
-        "excerpt":"Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn’t a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening &amp; War section...","categories": [],
+        "title": "Topic Modeling of Countries' Nationally Determined Contributions (NDCs) Using STM package in R",
+        "excerpt":"Coming Soon! ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/portfolio/fizz-bang-identity/",
-        "teaser":"http://localhost:4000/assets/images/unsplash-gallery-image-2-th.jpg"},{
-        "title": "Foo Bar Identity",
-        "excerpt":"Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn’t a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening &amp; War section...","categories": [],
+        "url": "http://localhost:4000/portfolio/econ_pv/",
+        "teaser":null},{
+        "title": "Building a R package pathways to facilitate data processing for Climate Watch Pathways",
+        "excerpt":"Overview This package contains functions to process data for pathways. It contains functions to generate transition file and to transition from model indicator names to default indicator names. It also contains other functions to process data initially like delete rows, fill cells, find text etc. Installation You can install pathways...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/portfolio/foo-bar-website/",
-        "teaser":"http://localhost:4000/assets/images/foo-bar-identity-th.jpg"},{
-        "title": "Ginger Gulp Identity",
-        "excerpt":"Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn’t a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening &amp; War section...","categories": [],
+        "url": "http://localhost:4000/portfolio/pathways_package/",
+        "teaser":null},{
+        "title": "Optimizing the Power Output of a Proton Exchange Membrane Fuel Cell System",
+        "excerpt":"Project Summary The output of the fuel cell depends on the current density (i), active surface area (A), and the voltage (V). Voltage is a function of pressure of the cell (Pcell), current density (i) and active area (A). More the pressure, more is the voltage and hence, more is...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/portfolio/ginger-gulp-identity/",
-        "teaser":"http://localhost:4000/assets/images/unsplash-gallery-image-3-th.jpg"},{
+        "url": "http://localhost:4000/portfolio/pem/",
+        "teaser":null},{
+        "title": "3D World Map of Total Emissions and Per Capita Emissions by Country",
+        "excerpt":"","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/portfolio/project_3d/",
+        "teaser":null},{
         "title": "Financial Modeling of a Natural Gas Combustion Turbine Power Plant",
         "excerpt":"Abstract Investment in electricity generation infrastructure if often thought to be as long lived and risky. Which is true in some cases. However our hypothesis is that unlike other generation infrastructure, investment in natural gas combustion turbine power plants is less risker and can be recovered sooner. To test our...","categories": [],
         "tags": [],
@@ -23,6 +28,16 @@ var store = [{
         "excerpt":"Introduction The rapidly growing world energy use has already raised concerns over supply difficulties, exhaustion of energy resources and heavy environmental impacts (ozone layer depletion, global warming, climate change, etc.). The global contribution from buildings towards energy consumption, both residential and commercial, has steadily increased reaching figures between 20% and...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/portfolio/project_recs/",
+        "teaser":null},{
+        "title": "Modeling Adoption of Residential Solar PV",
+        "excerpt":"Coming Soon! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/portfolio/solar_project/",
+        "teaser":null},{
+        "title": "Topic Modeling of Countries' Nationally Determined Contributions (NDCs) Using STM package in R",
+        "excerpt":"Coming Soon! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/portfolio/stm/",
         "teaser":null},{
         "title": "Balancing deployment and innovation of low-carbon technologies",
         "excerpt":"Low carbon technologies are expensive and without subsidies from the government, most of these technologies are not economically feasible. As these technologies are expensive, they do not have a very high demand for them at that high price. Because there is not much demand, it is difficult to deploy these...","categories": ["Energy Policy"],

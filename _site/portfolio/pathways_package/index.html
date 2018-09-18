@@ -1,0 +1,413 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.12.1 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Building a R package pathways to facilitate data processing for Climate Watch Pathways - Rexon Carvalho</title>
+<meta name="description" content="">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Rexon Carvalho">
+<meta property="og:title" content="Building a R package pathways to facilitate data processing for Climate Watch Pathways">
+<meta property="og:url" content="http://localhost:4000/portfolio/pathways_package/">
+
+
+  <meta property="og:description" content="">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2018-09-16T16:55:32-04:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/portfolio/pathways_package/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Rexon Carvalho",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Rexon Carvalho Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/">Rexon Carvalho</a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/resume/" >Resume</a>
+            </li><li class="masthead__menu-item">
+              <a href="/projects/" >Projects</a>
+            </li><li class="masthead__menu-item">
+              <a href="/posts/" >Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/contact/" >Contact</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      <h3>Additional Information</h3>
+      <p><a href="https://github.com/rexon1992/pathways">Explore Package On Github</a></p>
+
+    
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Building a R package pathways to facilitate data processing for Climate Watch Pathways">
+    <meta itemprop="description" content="">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Building a R package pathways to facilitate data processing for Climate Watch Pathways
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+<h2 id="overview">Overview</h2>
+
+<p>This package contains functions to process data for pathways. It contains functions to generate transition file and to transition from model indicator names to default indicator names. It also contains other functions to process data initially like delete rows, fill cells, find text etc.</p>
+
+<h2 id="installation">Installation</h2>
+
+<p>You can install pathways from github using devtools.</p>
+
+<p>If you are using devtools for the first time you will need to install it using:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">install.packages</span><span class="p">(</span><span class="s2">"devtools"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>You can install pathways using:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">devtools</span><span class="p">)</span><span class="w">
+</span><span class="n">install_github</span><span class="p">(</span><span class="s2">"rexon1992/pathways"</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">pathways</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<h2 id="general-workflow">General Workflow</h2>
+
+<p>This is an example of a typical workflow. Note that all the arguments passed into the functions are for illustrative purpose. File names and other arguments may depending on the nomenclature user chooses. Please read the function help pages for more information.</p>
+
+<h3 id="converting-source-data-to-raw-data">Converting Source Data to Raw Data</h3>
+
+<p>Below is the sample original source data file.</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#&gt; A tibble: 720 x 5</span><span class="w">
+</span><span class="c1">#&gt;   Indicator           Scenario          Sector      Year MEGATONNE</span><span class="w">
+</span><span class="c1">#&gt;   &lt;chr&gt;               &lt;chr&gt;             &lt;chr&gt;      &lt;dbl&gt;     &lt;dbl&gt;</span><span class="w">
+</span><span class="c1">#&gt; 1 Emissions by Sector AEO2015 REFERENCE COMMERCIAL  2015      967.</span><span class="w">
+</span><span class="c1">#&gt; 2 Emissions by Sector AEO2015 REFERENCE COMMERCIAL  2016      990.</span><span class="w">
+</span><span class="c1">#&gt; 3 Emissions by Sector AEO2015 REFERENCE COMMERCIAL  2017     1006.</span><span class="w">
+</span><span class="c1">#&gt; 4 Emissions by Sector AEO2015 REFERENCE COMMERCIAL  2018     1031.</span><span class="w">
+</span><span class="c1">#&gt; 5 Emissions by Sector AEO2015 REFERENCE COMMERCIAL  2019     1054.</span><span class="w">
+</span><span class="c1">#&gt; 6 Emissions by Sector AEO2015 REFERENCE COMMERCIAL  2020     1087.</span><span class="w">
+</span><span class="c1">#&gt; 7 Emissions by Sector AEO2015 REFERENCE COMMERCIAL  2021     1101.</span><span class="w">
+</span><span class="c1">#&gt; 8 Emissions by Sector AEO2015 REFERENCE COMMERCIAL  2022     1111.</span><span class="w">
+</span></code></pre></div></div>
+
+<p>To use the function of this package which convert the data and make it ready for upload, it has to be converted to the following format. All the headers other than the years must exactly match the ones in the following template. The package contains some general functions to delete, find and fill data in a dataframe which can be used to process the source data.</p>
+
+<p>The data values do not have to be in a particular format. For example, the Model Incicator Name can be any think like Emissions by Sector-Productive, Emissions by Sector Productive etc.</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#&gt;     Model        Region          Scenario                Model Indicator Name     Unit of Entry   2016       2017       2018      2019       2020       2021</span><span class="w">
+</span><span class="c1">#&gt;1    RR    United States      HIGH NUCLEAR       Emissions by Sector|PRODUCTIVE      MEGATONNE     1309.0257  1281.5625  1276.361  1277.6667  1278.4909  1159.8612</span><span class="w">
+</span><span class="c1">#&gt;2    RR    United States AEO2015 REFERENCE      Emissions by Sector|RESIDENTIAL      MEGATONNE     971.6919   967.3204   971.834   977.2520   990.4161   992.1451</span><span class="w">
+</span><span class="c1">#&gt;3    RR    United States          HIGH CCS      Emissions by Sector|RESIDENTIAL      MEGATONNE     1048.2860  1038.1109  1037.936  1046.8821  1056.1125  953.2898</span><span class="w">
+</span><span class="c1">#&gt;4    RR    United States   HIGH RENEWABLES      Emissions by Sector|RESIDENTIAL      MEGATONNE     1058.8847  1034.0865  1037.559  1039.1316  1024.0665  907.8701</span><span class="w">
+</span><span class="c1">#&gt;5    RR    United States   MIXED RESOURCES      Emissions by Sector|RESIDENTIAL      MEGATONNE     1047.3803  1025.2312  1018.146  1011.5801  1008.3327  891.0735</span><span class="w">
+</span><span class="c1">#&gt;6    RR    United States      HIGH NUCLEAR      Emissions by Sector|RESIDENTIAL      MEGATONNE     1061.0213  1024.0253  1008.834  999.8088   987.9709   853.9611</span><span class="w">
+</span><span class="c1">#&gt;7    RR    United States AEO2015 REFERENCE   Emissions by Sector|TRANSPORTATION      MEGATONNE     1929.4430  1920.1862  1921.254  1917.1024  1911.1245  1901.2237</span><span class="w">
+</span><span class="c1">#&gt;8    RR    United States      HIGH NUCLEAR   Emissions by Sector|TRANSPORTATION      MEGATONNE     1930.8548  1920.5908  1919.715  1914.0895  1905.8524  1861.8619</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="transforming-the-raw-data-and-generating-other-supporting-files">Transforming the Raw Data and generating other supporting files</h3>
+
+<p>After the Source Data is converted to Raw Data format, the names of the indicators have to be changed to Default Indicator Names.</p>
+
+<p>Use the following command to generate a transition file</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gen_tr_file</span><span class="p">(</span><span class="s2">"example/rawdata.csv"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>This will generate a csv file called “rawdata_TR.csv” in the same directory as the raw data file. The transition file contains a list of all the indicators in the raw data and the original units of entry.</p>
+
+<p>It contains an empty column called “Default Indicator Names”. Enter the The Default Indicator Names corresponding to Model Indicator Names in this column. If any model indicator does not have a matching indicator leaving the default indicator name field blank will delete the indicator and all the data associated with it from the final file.</p>
+
+<p>It is also possible to add two indicators and assign it to one default indicator. In order to do so add a row below the Model Indicator Name column in the transition file with the indicators to be added separated with a “+” sign (e.g. Emissions by Sector|COMMERCIAL+Emissions by Sector|RESIDENTIAL), add the unit of entry and enter the Default Indicator Name to which the sum has to be assigned</p>
+
+<p>It also contains an empty column called “Note”. Enter any notes (for e.g. any subtle difference between scope of model indicator and default indicator) if any. These notes will be carried forward while uploading the notes upload template.</p>
+
+<p>Following is an example of a transition file generated</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#&gt;                                            Model Indicator Name   Unit of Entry   Default Indicator Name   Note</span><span class="w">
+</span><span class="c1">#&gt;1                                 Emissions by Sector|COMMERCIAL     MEGATONNE                            </span><span class="w">
+</span><span class="c1">#&gt;2                                 Emissions by Sector|PRODUCTIVE     MEGATONNE                            </span><span class="w">
+</span><span class="c1">#&gt;3                                Emissions by Sector|RESIDENTIAL     MEGATONNE                            </span><span class="w">
+</span><span class="c1">#&gt;4                             Emissions by Sector|TRANSPORTATION     MEGATONNE                            </span><span class="w">
+</span><span class="c1">#&gt;5 Emissions by Sector|COMMERCIAL+Emissions by Sector|RESIDENTIAL     MEGATONNE                            </span><span class="w">
+</span></code></pre></div></div>
+
+<p>Note: running the gen_tr_file function will replace the existing transition file. Hence this command must be run only once unless there is a change in model indicator names or additions or subtractions of model indicators.</p>
+
+<p>After the transition file is updated, all the indicators which need to be assigned to default indicators are assigned and the file is saved, run the following command to convert the raw data in to upload data.</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">transition_with_add</span><span class="p">(</span><span class="s2">"example/rawdata.csv"</span><span class="p">,</span><span class="s2">"example/rawdata_TR_updated.csv"</span><span class="p">,</span><span class="n">notes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="s2">"example/ind_list_production.xlsx"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>This will replace all the model indicator names with corresponding defatul indictor names, add the indicators which are specified to be added in the transition file and write a file called rawdata_UL.csv in the same directory as the transition file. This can be uploaded on the portal.</p>
+
+<p>Following is an example of an upload file</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#&gt;      Model        Region          Scenario                                  Default Indicator Name Unit of Entry       2016       2017      2018       2019</span><span class="w">
+</span><span class="c1">#&gt;1        RR United States      HIGH NUCLEAR            Emissions|CO2 Emissions by Sector|Productive     MEGATONNE  1309.0257  1281.5625  1276.361  1277.6667</span><span class="w">
+</span><span class="c1">#&gt;2        RR United States AEO2015 REFERENCE Buildings|Residential building GHG Emissions by Gas|CO2     MEGATONNE   971.6919   967.3204   971.834   977.2520</span><span class="w">
+</span><span class="c1">#&gt;3        RR United States          HIGH CCS Buildings|Residential building GHG Emissions by Gas|CO2     MEGATONNE  1048.2860  1038.1109  1037.936  1046.8821</span><span class="w">
+</span><span class="c1">#&gt;4        RR United States   HIGH RENEWABLES Buildings|Residential building GHG Emissions by Gas|CO2     MEGATONNE  1058.8847  1034.0865  1037.559  1039.1316</span><span class="w">
+</span><span class="c1">#&gt;5        RR United States   MIXED RESOURCES Buildings|Residential building GHG Emissions by Gas|CO2     MEGATONNE  1047.3803  1025.2312  1018.146  1011.5801</span><span class="w">
+</span><span class="c1">#&gt;6        RR United States      HIGH NUCLEAR Buildings|Residential building GHG Emissions by Gas|CO2     MEGATONNE  1061.0213  1024.0253  1008.834   999.8088</span><span class="w">
+</span><span class="c1">#&gt;7        RR United States AEO2015 REFERENCE        Emissions|CO2 Emissions by Sector|Transportation     MEGATONNE  1929.4430  1920.1862  1921.254  1917.1024</span><span class="w">
+</span><span class="c1">#&gt;8        RR United States      HIGH NUCLEAR        Emissions|CO2 Emissions by Sector|Transportation     MEGATONNE  1930.8548  1920.5908  1919.715  1914.0895</span><span class="w">
+</span><span class="c1">#&gt;9        RR United States   HIGH RENEWABLES        Emissions|CO2 Emissions by Sector|Transportation     MEGATONNE  1931.5498  1920.2347  1919.035  1912.5660</span><span class="w">
+</span><span class="c1">#&gt;10       RR United States   MIXED RESOURCES        Emissions|CO2 Emissions by Sector|Transportation     MEGATONNE  1931.4653  1920.5047  1919.395  1913.1916</span><span class="w">
+</span><span class="c1">#&gt;11       RR United States          HIGH CCS             Emissions|CO2 Emissions by Sector|Buildings     MEGATONNE  2068.5684  2051.7622  2055.253  2078.1373</span><span class="w">
+</span></code></pre></div></div>
+
+<p>If the value of notes is set to 1 (like it is in this case) it will also generate and write a file called “rawdata_notes.csv” to enter notes and conversion factors for indicators. Also, if the value of notes is set to one the path to file containing the most updated list of indicators on the portal has to be specified for it to work. As the file is maintained in an “.xlsx” format, this input accepts an xlsx file.</p>
+
+<p>The notes file contains list of all the indicators in the upload file, unit of entry (Model Unit), Default Unit (standardize pathways unit), an empty column for model name, an empty column to specify conversion factors and an empty column to specify notes if any. The notes entered in the transition file will be automatically assigned to corresponding indicators.</p>
+
+<p>Following is an example of a notes file</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#&gt;                                    Default Indicator Name Model Name          Unit of Entry       Default Unit  Conversion Factor                                    Note</span><span class="w">
+</span><span class="c1">#&gt;1                Financial|Cumulative Net Investment|Coal         RR Running Sum of 2014 $T billion US$2016/yr                                                               </span><span class="w">
+</span><span class="c1">#&gt;2         Financial|Cumulative Net Investment|Natural Gas         RR Running Sum of 2014 $T billion US$2016/yr                                                               </span><span class="w">
+</span><span class="c1">#&gt;3  Financial|Cumulative Net Investment|Petroleum Products         RR Running Sum of 2014 $T billion US$2016/yr                                                               </span><span class="w">
+</span><span class="c1">#&gt;4  Financial|Cumulative Net Investment|Total Fossil Fuels         RR Running Sum of 2014 $T billion US$2016/yr                                                               </span><span class="w">
+</span><span class="c1">#&gt;5  Buildings|Commercial building GHG Emissions by Gas|CO2         RR              MEGATONNE         Mt CO2e/yr                                                               </span><span class="w">
+</span><span class="c1">#&gt;6            Emissions|CO2 Emissions by Sector|Productive         RR              MEGATONNE              Mt/yr                                                               </span><span class="w">
+</span><span class="c1">#&gt;7 Buildings|Residential building GHG Emissions by Gas|CO2         RR              MEGATONNE              Mt/yr                                                               </span><span class="w">
+</span><span class="c1">#&gt;8        Emissions|CO2 Emissions by Sector|Transportation         RR              MEGATONNE              Mt/yr                                                               </span><span class="w">
+</span><span class="c1">#&gt;9             Emissions|CO2 Emissions by Sector|Buildings         RR              MEGATONNE              Mt/yr                          Sum of  residential and commercial emissions</span><span class="w">
+</span></code></pre></div></div>
+
+<p>The column “Default Unit” is made avaliable just for reference and to make assigning conversion factors easier. This column has to be deleted for the file to be uploaded on the portal.</p>
+
+<p>The following command will generate a scenario meta information file</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gen_sen_meta</span><span class="p">(</span><span class="s2">"example/rawdata_UL.csv"</span><span class="p">,</span><span class="s2">"example/sen_meta_template.csv"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>This will generate and write a file called “rr_rawdata_SEN_META_UL.csv” which contains minimum information like the scenario name and the model name in the default template which can be directly uploaded on the portal the create scenarios. To add more information about scenarios this file can be edited and re-uploaded</p>
+
+<h2 id="uploading-the-data-on-pathways-portal">Uploading the Data on Pathways Portal</h2>
+
+<p>Once all the files are created and updated upload them in the following order</p>
+
+<ol>
+  <li>rawdata_NOTES.csv</li>
+  <li>rawdata_SEN_META_UL.csv</li>
+  <li>rawdata_UL.csv</li>
+</ol>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Building+a+R+package+pathways+to+facilitate+data+processing+for+Climate+Watch+Pathways%20http%3A%2F%2Flocalhost%3A4000%2Fportfolio%2Fpathways_package%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fportfolio%2Fpathways_package%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://plus.google.com/share?url=http%3A%2F%2Flocalhost%3A4000%2Fportfolio%2Fpathways_package%2F" class="btn btn--google-plus" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Google Plus"><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fportfolio%2Fpathways_package%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/portfolio/econ_pv/" class="pagination--pager" title="Topic Modeling of Countries’ Nationally Determined Contributions (NDCs) Using STM package in R
+">Previous</a>
+    
+    
+      <a href="/portfolio/pem/" class="pagination--pager" title="Optimizing the Power Output of a Proton Exchange Membrane Fuel Cell System
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+    
+    
+      <li><a href="https://github.com/rexon1992"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2018 Rexon Carvalho. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>

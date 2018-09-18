@@ -1,5 +1,5 @@
 var store = [{
-        "title": "Topic Modeling of Countries' Nationally Determined Contributions (NDCs) Using STM package in R",
+        "title": "Environmental-Economic Analysis of Solar PV",
         "excerpt":"Coming Soon! ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/portfolio/econ_pv/",
@@ -28,6 +28,11 @@ var store = [{
         "excerpt":"Introduction The rapidly growing world energy use has already raised concerns over supply difficulties, exhaustion of energy resources and heavy environmental impacts (ozone layer depletion, global warming, climate change, etc.). The global contribution from buildings towards energy consumption, both residential and commercial, has steadily increased reaching figures between 20% and...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/portfolio/project_recs/",
+        "teaser":null},{
+        "title": "Automating Web Scraping Using Selenium in Python",
+        "excerpt":"Python Script from selenium import webdriverfrom selenium.webdriver.support.wait import WebDriverWaitfrom selenium.webdriver.support import expected_conditions as ECfrom selenium.webdriver.common.by import Byimport pandas as pdimport itertools as itdriver = webdriver.Chrome()driver.get(\"https://www.climatechangecommunication.org/climate-change-opinion-map/\")# switch to iframeWebDriverWait(driver, 10).until(EC.frame_to_be_available_and_switch_to_it((By.XPATH, \"//iframe[@src = 'https://environment.yale.edu/ycom/factsheets/MapPage/2017Rev/?est=happening&amp;type=value&amp;geo=county']\")))def alt_apend(old_list): list_1=old_list[2:len(old_list):5] list_2=old_list[4:len(old_list):5] new_list=[None]*(len(list_1)+len(list_2)) new_list[::2]=list_1 new_list[1::2]=list_2 return(new_list)# select options and download datacongressional_dist=WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, \"//*[@id='cd']\")))congressional_dist.click()names=WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.XPATH, \"//*[@id='document']/div[*]//*[@class='name']\")))labels=WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.XPATH, \"//*[@id='document']/div[*]//*[@class='label']\")))columns=[]for...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/portfolio/se_py/",
         "teaser":null},{
         "title": "Modeling Adoption of Residential Solar PV",
         "excerpt":"Coming Soon! ","categories": [],

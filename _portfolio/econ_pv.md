@@ -1,5 +1,5 @@
 ---
-title: "Topic Modeling of Countries' Nationally Determined Contributions (NDCs) Using STM package in R"
+title: "Environmental-Economic Analysis of Solar PV"
 header:
 sidebar:
   - title: "Additional Information"

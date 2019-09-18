@@ -44,8 +44,7 @@ textarea:hover{
 </head>
 
 <h2> Using the contact information </h2>
-Email: <carvalho.rexon@gmail.com><br>
-Phone: (585) 532 8039
+Email: <carvalho.rexon@gmail.com>
 
 <h2 align = "center"> OR </h2>
 

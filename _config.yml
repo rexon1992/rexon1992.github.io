@@ -103,7 +103,7 @@ author:
   name             : "Rexon Carvalho"
   avatar           : /assets/images/rexon.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an energy modeler and data analyst"
-  location         : "Washington DC"
+  location         : "London, UK"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
